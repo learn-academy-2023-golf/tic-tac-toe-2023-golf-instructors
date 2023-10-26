@@ -53,6 +53,8 @@ const App = () => {
   }
 
   const catsGame = squares.every(value => value !== null)
+  console.log("catsGame:",catsGame)
+  
   return(
     <>
       <h1>Tic Tac Toe</h1>
